@@ -36,8 +36,8 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     // console.log(licNum, 'licNum')
-    console.log(licName, 'licName')
-    console.log(otherObj, 'otherObj')
+    // console.log(licName, 'licName')
+    // console.log(otherObj, 'otherObj')
 
     const resp = licName.map((name) => {
       console.log(name, 'name')
